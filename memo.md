@@ -99,6 +99,16 @@ CodeにFast LEDのLibraryが必要とあるので、インストールする。�
 購入したものに入っていたデフォルトのファームウェアよりも、LEDの点滅が早くなっていたら成功。
 これでarduino IDEからソースをコンパイルしてM5StickCボードに書き込むまでができるようになる。
 
+## HEART UNIT
+Screen Showのサンプルを動かしてみる。
+```
+/*
+    pls install MAX30100lib by library manager first
+    addr: https://github.com/oxullo/Arduino-MAX30100
+*/
+```
+oxulloのMAX30100ライブラリを入れてからビルドすると、問題なく動く。
+グラフで表示される。
 
-
-
+これで、M5StickCとHEART UNITとを繋いで動く確認は取れた。
+HEART RATE UNITを使ってコードを書いていけば動くようになる。
